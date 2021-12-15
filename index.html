@@ -2,8 +2,103 @@
 <html lang="nl">
 
 <head>
+
+    <title>Rooster Coaching</title>
+
+    <meta charset="UTF-8">
+
+    <script src="coachcalender-compute.js"></script>
+    <script src="coachcalender-html.js"></script>
+    <style>
+        body {
+            margin: 0 5% 0 5%;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        div {
+            margin: 2px;
+        }
+        .header {
+            display: flex;
+            align-items: center;
+
+        }
+        .header * {
+            display: inline-block;
+        }
+        .header h1 {
+            color: steelblue;
+            margin-right: 1em;
+        }
+        .header button {
+            margin-left: 0.5em;
+        }
+
+        .resources {
+            font-family: 'Courier New', Courier, monospace;
+            font-size: small;
+            margin-top: 2em;
+        }
+
+        .resources>div:nth-child(1)>div>div:nth-child(1) {
+            background-color: lightskyblue;
+        }
+
+        .calender {
+            margin-bottom: 1rem;
+            display: flex;
+        }
+        .calender>div {
+            width: 20%;
+        }
+        .calender>div>div {
+            border: solid 1px silver;
+        }
+
+
+        .calender>div:nth-child(1) {
+            border-right: brown 2px dashed;
+            padding-right: 5px;
+        }
+        .calender>div>div:nth-child(1) {
+            display: flex;
+            background-color: lightblue;
+            padding: 3px;
+        }
+        .calender>div>div:nth-child(2) {
+            margin-top: 4px;
+            border-bottom: brown 2px dashed;
+            margin-bottom: 6px;
+        }
+
+
+        .preferred, .deployed {
+            width: 100%;
+            text-align: center;
+        }
+        .preferred {
+            background-color: lightgreen;
+        }
+        .deployed {
+            background-color: orange;
+        }
+    </style>
 </head>
-<body>
-    Huh
+
+<body onload="bodyonload()">
+
+    <div class="header">
+        <h1>Rooster coaching</h1>
+        <button id="sortorder" onclick="resourcesort()">Volgorde ...</button>
+        <button onclick="refresh()">Nieuw rooster (Refresh)</button>
+        <button onclick="readsessions()">Zelfgefabriceerd rooster</button>
+        <button id="language" onclick="refreshlanguage()">Taal</button>
+    </div>
+
+    <hr>
+
+    <div id="resources" class="resources" ></div>
+
+
 </body>
-</html> 
+
+</html>
