@@ -6,7 +6,7 @@ In de code geen for of while loops gebruikt. Het idee is dat dergelijke code bet
 
 
 ## Toelichting code
-De belangrijkste functies zijn: makeplan, plan_session en equalize_and_radomize. De hoofdfunctie makeplan gaat na of er nog een niet geplande coaching sessie is. Zo ja dan volgt aanroep van plan_session, gevolgd door een hernieuwde aanroep van zichzelf (makeplan). Zo nee dan is de planning gereed en kan deze getoond worden. De functie plan_session gaat opzoek naar een coach die een voorkeur heeft voor het sessiemoment. Als deze er niet is dan wordt gezocht naar een coach die nog vrij is en die niet vaker is ingezet dan het maximum per coach. De functie equalize_and_radomize zorgt voor berekening van het maximum en het op een willekeurige manier bovenaan zetten van beschikbare coaches. Door het willekeurig bovenaan zetten is elk rooster uniek.
+De belangrijkste functies zijn: makeplan, plan_session en equalize_and_randomize. De hoofdfunctie makeplan gaat na of er nog een niet geplande coaching sessie is. Zo ja dan volgt aanroep van plan_session, gevolgd door een hernieuwde aanroep van zichzelf (makeplan). Zo nee dan is de planning gereed en kan deze getoond worden. De functie plan_session gaat opzoek naar een coach die een voorkeur heeft voor het sessiemoment. Als deze er niet is dan wordt gezocht naar een coach die nog vrij is en die niet vaker is ingezet dan het maximum per coach. De functie equalize_and_randomize zorgt voor berekening van het maximum en het op een willekeurige manier bovenaan zetten van beschikbare coaches. Door het willekeurig bovenaan zetten is elk rooster uniek.
 
 
 ## Challenge vragen - antwoorden
@@ -27,5 +27,5 @@ Antwoord: zie antwoord op vraag 4 met daarbij de opmerking: coaches worden ingep
 
 ## Conclusie
 De roosters voldoen aan de eisen van de challenge. Betere roosters zijn mogelijk door het slimmer maken van de functie
-equalize_and_radomize. Bijvoorbeeld: een coach niet inplannen als het geplande voorkeurpercentage hoger is dan zijn gemiddelde voorkeurpercentage. Van coach Sander is dat gemiddelde 25%, namelijk 4 avondsessies van de 16 mogelijke sessies. Ook kan nog een functie toegevoegd worden die makeplan opnieuw uitvoert als het gemiddelde van alle geplande voorkeurpercentages veel lager is dan het gemiddelde van de gemiddelde percentages - het Bitlab gemiddelde.  
+equalize_and_randomize. Bijvoorbeeld: een coach niet inplannen als het geplande voorkeurpercentage hoger is dan zijn gemiddelde voorkeurpercentage. Van coach Sander is dat gemiddelde 25%, namelijk 4 avondsessies van de 16 mogelijke sessies. Ook kan nog een functie toegevoegd worden die makeplan opnieuw uitvoert als het gemiddelde van alle geplande voorkeurpercentages veel lager is dan het gemiddelde van de gemiddelde percentages - het Bitlab gemiddelde.  
 Door aan de functie plan_session logica voor beperkingen toe te voegen worden de roosters realistischer . Bijvoorbeeld: inzet op maximaal 2 dagdelen per dag of geen inzet van een coach op dagen waarop hij/zij niet beschikbaar is, etc.
