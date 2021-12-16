@@ -6,7 +6,7 @@ In de code geen for of while loops gebruikt. Het idee is dat dergelijke code bet
 
 
 ## Toelichting code
-De belangrijkste functies zijn: makeplan, plan_session en equalize_and_randomize. De hoofdfunctie makeplan gaat na of er nog een niet geplande coaching sessie is. Zo ja dan volgt aanroep van plan_session, gevolgd door een hernieuwde aanroep van zichzelf (makeplan). Zo nee dan is de planning gereed en kan deze getoond worden. De functie plan_session gaat opzoek naar een coach die een voorkeur heeft voor het sessiemoment. Als deze er niet is dan wordt gezocht naar een coach die nog vrij is en die niet vaker is ingezet dan het maximum per coach. De functie equalize_and_randomize zorgt voor berekening van het maximum en het op een willekeurige manier bovenaan zetten van beschikbare coaches. Door het willekeurig bovenaan zetten is elk rooster uniek.
+De belangrijkste functies zijn: makeplan, plan_session en equalize_and_randomize. De hoofdfunctie makeplan gaat na of er nog een niet geplande coaching sessie is. Zo ja dan volgt aanroep van plan_session, gevolgd door een hernieuwde aanroep van zichzelf (makeplan). Zo nee dan is de planning gereed en kan deze getoond worden. De functie plan_session gaat op zoek naar een coach die een voorkeur heeft voor het sessiemoment. Als deze er niet is dan wordt gezocht naar een coach die nog vrij is en die niet vaker is ingezet dan het maximum per coach. De functie equalize_and_randomize zorgt voor berekening van het maximum en het op een willekeurige manier bovenaan zetten van beschikbare coaches. Door het willekeurig bovenaan zetten is elk rooster uniek.
 
 
 ## Challenge vragen - antwoorden
