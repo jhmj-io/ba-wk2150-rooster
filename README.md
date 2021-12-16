@@ -28,4 +28,4 @@ Antwoord: zie antwoord op vraag 4 met daarbij de opmerking: coaches worden ingep
 ## Conclusie
 De roosters voldoen aan de eisen van de challenge. Betere roosters zijn mogelijk door het slimmer maken van de functie
 equalize_and_randomize. Bijvoorbeeld: een coach niet inplannen als het geplande voorkeurpercentage hoger is dan zijn gemiddelde voorkeurpercentage. Van coach Sander is dat gemiddelde 25%, namelijk 4 avondsessies van de 16 mogelijke sessies. Ook kan nog een functie toegevoegd worden die makeplan opnieuw uitvoert als het gemiddelde van alle geplande voorkeurpercentages veel lager is dan het gemiddelde van de gemiddelde percentages - het Bitlab gemiddelde.  
-Door aan de functie plan_session logica voor beperkingen toe te voegen worden de roosters realistischer . Bijvoorbeeld: inzet op maximaal 2 dagdelen per dag of geen inzet van een coach op dagen waarop hij/zij niet beschikbaar is, etc.
+Door aan de functie plan_session beperkingen toe te voegen worden de roosters realistischer . Bijvoorbeeld: inzet op maximaal 2 dagdelen per dag of geen inzet van een coach op dagen waarop hij/zij niet beschikbaar is, etc.
