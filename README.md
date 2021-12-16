@@ -2,7 +2,7 @@
 Rooster coaches 
 
 ## Inleiding
-In de code geen for of while loops gebruikt. Het idee is dat dergelijke code beter is. Scherpere afbaking van functies, beter leesbaar en minder fouten. Meer over dit idee in dit artikel van [Samer Buna, 2017](https://medium.com/edge-coders/coding-tip-try-to-code-without-loops-18694cf06428). De gebruikte taal is: javascript. Een werkende [live demo](https://jhmj-io.github.io/bitacademy-challenge-wk50/) op github.io.
+In de code geen for en geen while loops gebruikt. Het idee is dat dergelijke code beter is. Scherpere afbaking van functies, beter leesbaar en minder fouten. Meer over dit idee in dit artikel van [Samer Buna, 2017](https://medium.com/edge-coders/coding-tip-try-to-code-without-loops-18694cf06428). De gebruikte taal is: javascript. Een werkende [live demo](https://jhmj-io.github.io/bitacademy-challenge-wk50/) op github.io.
 
 
 ## Toelichting code
