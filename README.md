@@ -27,4 +27,4 @@ Antwoord: zie antwoord op vraag 4 met daarbij de opmerking: coaches worden ingep
 
 ## Conclusie
 De roosters voldoen aan de eisen van de challenge. Betere roosters zijn mogelijk door het slimmer maken van de functie
-equalize_and_radomize. Bijvoorbeeld: een coach niet inplannen als het geplande preferentie percentage hoger is dan zijn gemiddelde preferentie percentage. Van coach Sander is dat gemiddelde: 25%, namelijk 4 avondsessie van de 16 mogelijke sessies. Ook kan nog een functie toegevoegd worden die makeplan opnieuw uitvoert als het gemiddelde van alle preferentie percentage veel lager is dan het gemiddelde van alle coach gemiddeldes - het Bitlab gemiddelde. 
+equalize_and_radomize. Bijvoorbeeld: een coach niet inplannen als het geplande preferentie percentage hoger is dan zijn gemiddelde preferentie percentage. Van coach Sander is dat gemiddelde: 25%, namelijk 4 avondsessie van de 16 mogelijke sessies. Ook kan nog een functie toegevoegd worden die makeplan opnieuw uitvoert als het gemiddelde van alle preferentie percentages veel lager is dan het gemiddelde van alle coach gemiddeldes - het Bitlab gemiddelde. 
