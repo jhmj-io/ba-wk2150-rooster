@@ -1,0 +1,36 @@
+[
+{
+    "name": "Alexander",
+    "aanbod": {
+        "1": {"3": true},
+        "4": {"3": true},
+        "6": {"3": true}
+    },
+    "sessies": {
+        "11": {"preferred": 0,"deployed": 0},
+        "12": {"preferred": 0,"deployed": 0},
+        "13": {"preferred": 1,"deployed": 1},
+        "21": {"preferred": 0,"deployed": 0},
+        "22": {"preferred": 0,"deployed": 0},
+        "23": {"preferred": 0,"deployed": 0},
+        "31": {"preferred": 0,"deployed": 1},
+        "32": {"preferred": 0,"deployed": 0},
+        "33": {"preferred": 0,"deployed": 0},
+        "41": {"preferred": 0,"deployed": 0},
+        "42": {"preferred": 0,"deployed": 0},
+        "43": {"preferred": 1,"deployed": 1},
+        "51": {"preferred": 0,"deployed": 0},
+        "52": {"preferred": 0,"deployed": 0},
+        "53": {"preferred": 0,"deployed": 0},
+        "61": {"preferred": 0,"deployed": 1},
+        "62": {"preferred": 0,"deployed": 1},
+        "63": {"preferred": 1,"deployed": 0},
+        "71": {"preferred": 0,"deployed": 0},
+        "72": {"preferred": 0,"deployed": 1},
+        "73": {"preferred": 0,"deployed": 0}
+    },
+    "deploymenthours": 22,
+    "deploymentcount": 6,
+    "deploymentpreferred": 2
+}
+]
