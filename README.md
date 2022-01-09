@@ -2,7 +2,7 @@
 Rooster coaches 
 
 ## Inleiding
-In de code geen for en geen while loops gebruikt. Het idee is dat dergelijke code beter is. Scherpere afbaking van functies, beter leesbaar en minder fouten. Meer over dit idee in dit artikel van [Samer Buna, 2017](https://medium.com/edge-coders/coding-tip-try-to-code-without-loops-18694cf06428). De gebruikte taal is: javascript. Een werkende [live demo](https://jhmj-io.github.io/bitacademy-challenge-wk50/) op github.io.
+In de code geen for en geen while loops gebruikt. Het idee is dat dergelijke code beter is. Scherpere afbaking van functies, beter leesbaar en minder fouten. Meer over dit idee in dit artikel van [Samer Buna, 2017](https://medium.com/edge-coders/coding-tip-try-to-code-without-loops-18694cf06428). De gebruikte taal is: javascript. Een werkende [live demo](https://jhmj-io.github.io/ba-wk2150-rooster/) op github.io.
 
 
 ## Toelichting code
@@ -11,7 +11,7 @@ De belangrijkste functies zijn: makeplan, plan_session en equalize_and_randomize
 
 ## Challenge vragen - antwoorden
 
-Zie [live demo](https://jhmj-io.github.io/bitacademy-challenge-wk50/)
+Zie [live demo](https://jhmj-io.github.io/ba-wk2150-rooster/)
 
 1. Vraag: Maak een rooster dat iedere coach ten minste 1 keer inroostert. Laat vervolgens het rooster zien op een overzichtelijke manier. Je mag er voor nu nog vanuit gaan dat een coaching sessie de gehele dag duurt en dat de coaches de gehele dag beschikbaar zijn.
 Antwoord: zie antwoord op vraag 4 met daarbij de opmerking: coaches worden ingepland per dagdeel en niet voor gehele dag.
